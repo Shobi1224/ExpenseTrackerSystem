@@ -1,9 +1,8 @@
 package Expense.example.ExpenseTrackerSystem.Service;
-import java.security.spec.EdDSAParameterSpec;
 import java.sql.Date;
 import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+
+
 
 import Expense.example.ExpenseTrackerSystem.Error.ExpenseNotFoundException;
 import Expense.example.ExpenseTrackerSystem.Model.Expense;
@@ -11,8 +10,6 @@ import Expense.example.ExpenseTrackerSystem.Model.User;
 import Expense.example.ExpenseTrackerSystem.Repo.ExpenseRepo;
 import Expense.example.ExpenseTrackerSystem.Repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.expression.ExpressionException;
-import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
